@@ -23,39 +23,28 @@
 # :relaxed: Minha experiência
 
   
-  ## :zap: Barra de navegacao
-  Usada em todas as paginas do projeto, a barra de navegação deve fica no centro e com pequeno espaçamento entre as opções. Acrescentei navegação com teclado e efeito hover como demonstrado abaixo:
+  ## :zap: Primeiro desafio desse projeto: Usar medidas relativas no projeto
+  O que é uma medida relativa?
+  
+  Essas são as que normalmente não estamos habituados. Essas medidas são calculadas tendo como base 
+  uma outra unidade de medida definida, como por exemplo:
+
+  **em** e o **rem**. O uso delas é mais apropriado para que possamos fazer ajustes em diferentes dispositivos garantindo um layout consistente e fluido em diversas mídia.
+  
+  [fonte: Alura | Confira o artigo aqui](https://www.alura.com.br/artigos/guia-de-unidades-no-css)
   
    ~~~CSS
-.navegacao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem 0rem;
-}
-
-.navegacao__lista {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-}
-
-.navegacao__lista-link:focus {
-    color: greenyellow;
-}
-
-.navegacao__lista-link:hover {
-    border: 2px solid var(--azul);
-    border-radius: 20px;
-}
-
-.ativo {
-    border-bottom: 2px solid var(--azul);
+ .conteudo__texto {
+    font-family: var(--fonte-secundario);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--cinza);
+    line-height: 2.25rem;
+    padding: 2rem 0;
 }
   ~~~
   
-  <img align="center" src="https://github.com/DanielBarret0/portifolio-curso-alura/blob/main/assets/img/2-gif-barra-navegacao.gif">
+  <img align="center" src="https://engage-site-cms.s3.amazonaws.com/production/engage-interactive/cms/processed/8c0194fc81cc2ce455910deffaa9b879.png">
 
   ## :zap: Pagina Home
  O desafio dessa pagina foi centralizar todo conteúdo e organizar os espaçamentos entre cada item. Minha solução foi usar o Flexbox como demonstrado abaixo.
