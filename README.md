@@ -46,31 +46,16 @@
   
   <img align="center" src="https://engage-site-cms.s3.amazonaws.com/production/engage-interactive/cms/processed/8c0194fc81cc2ce455910deffaa9b879.png">
 
-  ## :zap: Pagina Home
- O desafio dessa pagina foi centralizar todo conteúdo e organizar os espaçamentos entre cada item. Minha solução foi usar o Flexbox como demonstrado abaixo.
+  ## :zap: Segundo Desafio: Imagem responsiva!
+ Nesse projeto o desafio é somente mudar o tamanho da imagem com medida fixa para uma relativa no caso a porcentagem.
   
   ~~~CSS
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
-
-.conteudo {
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 3px solid var(--azul);
-    border-radius: 20px;
-    width: 38.4375rem;
-    background-color: #f0f8ff0e;
-    transition: 500ms all;
+.imagem {
+    width: 50%;
 }
   ~~~
   
-  <img align="center" src="https://github.com/DanielBarret0/portifolio-curso-alura/blob/main/assets/img/1-pagina-home-solucao.png">
+  <img align="center" src="">
   
   
    ## :zap: Pagina Sobre e Curriculo
